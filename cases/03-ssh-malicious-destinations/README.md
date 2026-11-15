@@ -78,7 +78,7 @@ O caso demonstra a importância de monitorar tráfego de saída e correlacionar 
 - Avaliação de risco baseada em evidências.
 - Recomendações de controle de egress traffic.
 
-## 9. Referências
+## 9. Referência
 
 - [RFC 9293 — Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293)
 
