@@ -16,7 +16,7 @@ Atuação em operações de segurança da informação, com foco em análise e t
 | 02 | [Tentativa de exploração JNDI — contexto Log4Shell](cases/02-jndi-log4shell/) | Análise de requisições HTTP, investigação de indicadores, validação de evidências e resposta a incidentes |
 | 03 | [Tráfego SSH para destinos com reputação suspeita](cases/03-ssh-malicious-destinations/) | Threat Hunting, análise de tráfego, OSINT e controle de tráfego de saída |
 | 04 | [Uncommon Process Anomaly em Linux](cases/04-uncommon-process-anomaly/) | Análise comportamental, contextualização de alertas e redução de falsos positivos |
-| 05 | [Aumento de eventos associados à infraestrutura DigitalOcean](cases/05-digitalocean-threat-activity/) | Threat Intelligence, OSINT, correlação de indicadores e bloqueio seletivo |
+| 05 | [Aumento de eventos associados à infraestrutura DigitalOcean](cases/05-digitalocean-threat-activity/) | Threat Intelligence, OSINT, correlação de indicadores e avaliação de controles de bloqueio |
 | 06 | [Comunicação suspeita e tráfego relacionado ao Memcached](cases/06-memcached-suspicious-traffic/) | Análise de tráfego interno e externo, validação de serviços e mitigação de exposição |
 
 ## Competências abordadas
