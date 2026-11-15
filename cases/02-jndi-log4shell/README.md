@@ -72,8 +72,10 @@ A conclusão apropriada para o escopo publicado é **tentativa suspeita de explo
 ## 9. Referências
 
 - [NIST National Vulnerability Database — CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
+- [Apache Logging Services — Security](https://logging.apache.org/security.html)
 - [Apache — informações de segurança sobre CVE-2021-44228](https://security.apache.org/blog/cve-2021-44228/)
 - [CISA e parceiros — Mitigating Log4Shell and Other Log4j-Related Vulnerabilities](https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a)
+- [CISA — Joint CSA: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities (PDF)](https://www.cisa.gov/sites/default/files/publications/AA21-356A_Joint_CSA_Mitigating_Log4Shell_and_Other_Log4j-Related_Vulnerabilities.pdf)
 
 ## Limitações
 
