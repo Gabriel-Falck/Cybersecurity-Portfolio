@@ -32,6 +32,8 @@ O Memcached é um sistema de cache distribuído. A porta 11211 é comumente asso
 
 O risco de amplificação DDoS historicamente associado ao Memcached depende de condições específicas, incluindo serviço acessível externamente e uso do protocolo UDP em configurações vulneráveis. Portanto, a análise deve verificar protocolo, interfaces de escuta, regras de firewall, rotas e exposição real — não apenas a porta observada.
 
+Mesmo quando o UDP está desabilitado, a exposição direta do Memcached à Internet deve ser evitada. O serviço deve aceitar conexões somente de origens confiáveis e necessárias à operação, com restrições de rede e firewall adequadas.
+
 ## 5. Recomendações técnicas
 
 ### Ativo que originou a comunicação externa
