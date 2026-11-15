@@ -54,7 +54,7 @@ Atribuição a um ASN ou provedor deve ser tratada como contexto, não como prov
 
 ## 6. Recomendações
 
-1. Manter inventário dos indicadores confirmados e registrar fonte, data de consulta e evidências.
+1. Manter inventário dos indicadores investigados, registrando fonte, data de consulta, evidências e nível de confiança da classificação.
 2. Priorizar bloqueio de IPs, domínios ou URLs específicos quando houver sustentação técnica.
 3. Evitar bloqueio indiscriminado de ranges de provedores de nuvem.
 4. Validar possíveis dependências de negócio antes de aplicar controles de bloqueio.
@@ -75,11 +75,9 @@ O bloqueio seletivo e revisável de indicadores específicos tende a ser mais pr
 - Avaliação de impacto de regras de firewall.
 - Recomendação de controles preventivos proporcionais ao risco.
 
-## 9. Referências
+## 9. Referência
 
 - [Netskope Threat Labs — Invasores abusando da DigitalOcean para hospedar golpes e phishing](https://www.netskope.com/pt/blog/attackers-increasingly-abusing-digitalocean-to-host-scams-and-phishing) (publicado em 9 de março de 2023; referência contextual sobre campanhas específicas, não evidência dos eventos deste estudo).
-- [VirusTotal](https://www.virustotal.com/)
-- [AbuseIPDB](https://www.abuseipdb.com/)
 
 ## Limitações
 
