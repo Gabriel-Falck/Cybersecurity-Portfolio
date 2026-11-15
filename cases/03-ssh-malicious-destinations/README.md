@@ -28,6 +28,14 @@ O material analisado descreveu conexões classificadas pela plataforma de monito
 
 A semântica exata desses estados pode variar conforme a ferramenta e a forma de coleta. Em particular, a ausência de SYN no conjunto de dados não prova que nenhum SYN existiu na rede: assimetria de roteamento, perda de pacotes, amostragem ou limitações de visibilidade podem influenciar a captura.
 
+### Consulta a fontes de inteligência (OSINT)
+
+Durante a investigação, foram consultados indicadores de endereços IP em fontes públicas de inteligência, incluindo VirusTotal e AbuseIPDB.
+
+Os resultados apresentaram divergências entre as plataformas: alguns indicadores não possuíam detecções relevantes no VirusTotal, mas apresentavam registros ou denúncias no AbuseIPDB. Essas diferenças reforçam que as fontes devem ser interpretadas de forma complementar, considerando seus critérios e limitações.
+
+A ausência de detecções em uma plataforma não comprova reputação confiável, assim como registros de denúncias em outra não comprovam, isoladamente, atividade maliciosa.
+
 ## 4. Análise técnica
 
 A correlação entre tráfego SSH de saída e indicadores com reputação negativa justifica investigação, mas não comprova, por si só, comprometimento do host interno.
@@ -72,8 +80,6 @@ O caso demonstra a importância de monitorar tráfego de saída e correlacionar 
 
 ## 9. Referências
 
-- [VirusTotal](https://www.virustotal.com/)
-- [AbuseIPDB](https://www.abuseipdb.com/)
 - [RFC 9293 — Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293)
 
 ## Limitações
