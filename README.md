@@ -27,7 +27,7 @@ Atuação em operações de segurança da informação, com foco em análise e t
 - Inteligência de ameaças (Threat Intelligence) e OSINT
 - Indicadores de comprometimento (IOCs) e análise de reputação
 - Gestão de vulnerabilidades e avaliação de risco
-- Resposta a incidentes, contenção e recomendações de mitigação
+- Apoio à resposta a incidentes, investigação de alertas e recomendações de contenção e mitigação
 - Análise comportamental de processos em Linux
 - Documentação técnica e comunicação de risco
 
